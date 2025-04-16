@@ -7,7 +7,7 @@ class TheSims4ModDataContent(ModDataContent):
     def getAllContents(self) -> list[ModDataContent.Content]:
         return [
             ModDataContent.Content(
-                ModFiles.FileTypes.MOD_PACKAGE, "Package", ":/MO/gui/content/package"
+                ModFiles.FileTypes.MOD_PACKAGE, "Package", ":/MO/gui/content/bsa"
             ),
             ModDataContent.Content(
                 ModFiles.FileTypes.MOD_SCRIPT, "Script", ":/MO/gui/content/script"

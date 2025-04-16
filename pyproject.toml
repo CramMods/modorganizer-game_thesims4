@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "game_thesims4"
-version = "0.3.0"
+version = "0.3.1"
 description = ""
 authors = ["Grant Le Roux <cram42@users.noreply.github.com>"]
 license = "GPL-3.0-or-later"
