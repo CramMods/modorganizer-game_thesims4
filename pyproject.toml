@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "game_thesims4"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Grant Le Roux <cram42@users.noreply.github.com>"]
 license = "GPL-3.0-or-later"
@@ -58,5 +58,3 @@ reportMissingModuleSource = false
 pythonPlatform = "Windows"
 
 [tool.poetry_bumpversion.file."src/plugin.py"]
-search  = 'VersionInfo("{current_version}")'
-replace = 'VersionInfo("{new_version}")'
