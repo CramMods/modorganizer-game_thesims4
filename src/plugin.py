@@ -17,6 +17,7 @@ from mobase import (
 )
 
 from .moddatachecker import TheSims4ModDataChecker
+from .moddatacontent import TheSims4ModDataContent
 
 
 class TheSims4GamePlugin(IPluginGame, IPluginFileMapper):
@@ -59,6 +60,12 @@ class TheSims4GamePlugin(IPluginGame, IPluginFileMapper):
         self._organizer.gameFeatures().registerFeature(
             self,
             TheSims4ModDataChecker(),
+            0,
+            True,
+        )
+        self._organizer.gameFeatures().registerFeature(
+            self,
+            TheSims4ModDataContent(),
             0,
             True,
         )
