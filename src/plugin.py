@@ -41,7 +41,7 @@ class TheSims4GamePlugin(IPluginGame, IPluginFileMapper):
         return "Cram42"
 
     def version(self) -> VersionInfo:
-        return VersionInfo("0.2.0")
+        return VersionInfo("0.3.0")
 
     def description(self) -> str:
         return "Game support for The Sims 4."
